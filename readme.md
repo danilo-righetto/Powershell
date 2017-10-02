@@ -14,7 +14,7 @@ Importante
 
 Dúvidas envie um e-mail para: [Danilo Righetto](mailto:danilonewtrue@gmail.com)
 
-Ou procure mais imformações no site: [Microsoft Documentation](https://docs.microsoft.com/pt-br/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-5.1)
+Ou procure mais informações no site: [Microsoft Documentation](https://docs.microsoft.com/pt-br/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-5.1)
 
 ### Ambiente de Desenvolvimento
 
@@ -40,10 +40,7 @@ $ Set-ExecutionPolicy Unrestricted
 
 E Pronto.
 
-##### Observação: para o desenvolvimento dos Módulos e Scripts aqui descritos estou usando a [versão 5.1 do Powershell]()
-
-And of course Dillinger itself is open source with a [public repository][dill]
- on GitHub.
+#### Observação: para o desenvolvimento dos Módulos e Scripts aqui descritos estou usando a [versão 5.1 do Powershell]()
 
 ### Execução
 
