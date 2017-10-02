@@ -1,13 +1,12 @@
-# Powershell - Git Update Script
+# Powershell - Composer Update Script
 
-Através desse script é possível automatizar a verificação e atualização dos seus repositórios Git.
+Através desse script é possível atualizar o composer.
 
-Caso você ainda não tenha o Git instalado [clique aqui](https://git-scm.com/downloads) e saiba mais.
+Caso você ainda não tenha o Composer instalado [clique aqui](https://getcomposer.org/download/) e saiba mais.
 
-Comando "Git" utilizados:
-  - [Git status](https://git-scm.com/docs/git-status) - Para verificar o status do seu projeto
-  - [Git pull](https://git-scm.com/docs/git-pull) - Para fazer o download das últimas alterações (commits)
-  - [Git log --shortstat -3](https://git-scm.com/docs/git-log) - Para mostrar as últimas 3 principais alterações
+Comandos utilizados:
+  - [composer --version](https://getcomposer.org/doc/articles/versions.md) - Para verificar a versão do seu Composer
+  - [composer self-update](https://getcomposer.org/doc/03-cli.md#self-update-selfupdate-) - Para realizar a atualização do Composer
 
 Importante
 ----
@@ -18,18 +17,19 @@ Dúvidas envie um e-mail para: [Danilo Righetto](mailto:danilonewtrue@gmail.com)
 
 Ou procure mais informações no site: [Microsoft Documentation](https://docs.microsoft.com/pt-br/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-5.1)
 
-
 #### Observação: para o desenvolvimento dos Módulos e Scripts aqui descritos estou usando a [versão 5.1 do Powershell]()
 
 ### Execução
 
 Para a execução dos Scripts acesse via Terminal (Console) do Powershell a pasta onde você baixou o script.
 
-Dentro do arquivo ".\git-pull.ps1" altere a linha 22 mudando o valor da variável "$caminho" para a pasta de sua necessidade. Em seguida salve o mesmo e execute o comando abaixo:
+Execute o comando abaixo:
 
 ```sh
-$ .\git-pull.ps1
+$ .\composer-update.ps1
 ```
+
+E Pronto. Agora o script vai se encarregar de verificar e versão e atualizar o seu Composer.
 
 ### Execução Automática
 
@@ -44,9 +44,9 @@ $ Adicione argumentos: -File "C:\user\seu-nome\sua-pasta\seu-script.ps1"
 
 ### Relatório de Execução
 
-Por padrão esse script gera a pasta "relatorio-git" no seu disco "C:\" com um arquivo ".txt" contendo as informações do que foi atualizado ou não no momento da execução e para isso o script precisa ser executado com privilégios mais altos (Como Administrador).
+Por padrão esse script gera a pasta "relatorio-composer" no seu disco "C:\" com um arquivo ".txt" contendo as informações do que foi atualizado ou não no momento da execução e para isso o script precisa ser executado com privilégios mais altos (Como Administrador).
 
-Acesse no seu computador a pasta "C:\relatorio-git\" e veja o arquivo que foi criado.
+Acesse no seu computador a pasta "C:\relatorio-composer\" e veja o arquivo que foi criado.
 
 ### Versões do Powershell
 
@@ -96,3 +96,4 @@ Software Livre - \o/
    [dill]: <https://github.com/joemccann/dillinger>
    [dillinger]: <https://dillinger.io/>
    [git-repo-url]: <https://github.com/joemccann/dillinger.git>
+   [Composer-Documentation]: <https://getcomposer.org/doc/03-cli.md>
