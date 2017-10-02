@@ -20,7 +20,7 @@ Leia a documentação através do arquivo "readme.md"
 
 echo "-------------------------------------------------------" | Out-File -FilePath C:\relatorio-composer\composer-$data.txt -Append -Force
 $data = Get-Date -UFormat "%d-%m-%Y-%H-%M"
-echo "Realizando atualização do Composer ... Data:$data" #| Out-File -FilePath C:\wksp\relatorioGit-$data.txt -Append
+echo "Realizando atualização do Composer ... Data:$data" 
 echo "#############################################################" | Out-File -FilePath C:\relatorio-composer\composer-$data.txt -Append -Force
 echo "Executando :  ...." | Out-File -FilePath C:\relatorio-composer\composer-$data.txt -Append -Force
 Invoke-Expression -Command:"composer --version" | Out-File -FilePath C:\relatorio-composer\composer-$data.txt -Append -Force
