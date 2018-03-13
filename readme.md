@@ -62,6 +62,13 @@ Essas são as versões do Powershell existentes:
 | Powershell 4.0 | Windows 8.1 e Windows Server 2012 R2 |
 | Powershell 5.0 | Windows Server 2016 e Windows 10 |
 
+## Documentação
+
+Acesse a pasta `Documents` para mais informações sobre o projeto.
+
+## Autor
+
+#### [Danilo Righetto](https://danilo-righetto.github.io/) - Analista de Sistemas
 
 License
 ----
